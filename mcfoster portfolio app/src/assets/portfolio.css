@@ -1,81 +1,41 @@
-
-
-/* font for scary font */
-main {
-   
+:root {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 200%;
-}
-
-h1 {
-    text-align: center;
-    text-shadow: 0px 0px 20px rgb(26, 7, 233);
-}
-
-h2 {
-    padding: 30px;
-    text-shadow: 0px 0px 20px rgb(16, 228, 12);
-}
-
-h3 {
-    padding-bottom: 80px;
-    text-shadow: 0px 0px 20px rgb(38, 228, 17);
-}
-
-main h2 {
-    color: rgb(241, 237, 37);
-}
-
-.navbar ul {
-    /* display: block; */
-    /* background-color:rgba(128, 128, 128, 0.404); */
-    padding: 2px;
-    /* margin: 0px; */
-    /* text-align: center; */
-    /* box-shadow: 0px 0px 15px white; */
-    /* overflow: hidden; */
-}
-
-.navbar li{
-    float:left;
-    /* justify-content: space-between; */
-}
-.btn:hover{
-    background-color: rgb(239, 16, 165);
-}
-
-/* button fonts */
-.btn {
-    margin-right:10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    background-color: rgb(107, 4, 4);
-    padding: 10px;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow:
-    /* 0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff, */
-    /* 0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;   */
-
-}
-
-
-body {
+    line-height: 1.5;
+    font-weight: 400;
+  /* background page for homea and font  */
+    color-scheme: light dark;
+    color: rgba(20, 69, 231, 0.87);
+    background-color: #18dde8;
+  
+    /* font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } */
+  
+  /* the navbar coloring */
+  a {
+    font-weight: 500;
+    color: #ed16b7;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: green;
+    text-decoration: green wavy underline;
+  }
+  
+  body {
     margin: 0;
-    background-color: rgb(27, 232, 236);
-}
-
-p {
-    color: rgb(20, 20, 230);
-}
+    display: float;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2.2em;
+    line-height: 1.1;
+  }
 
 .container {
     margin-left: 50px;

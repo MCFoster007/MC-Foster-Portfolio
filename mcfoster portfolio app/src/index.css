@@ -2,9 +2,9 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-/* background page for home  */
+/* background page for homea and font  */
   color-scheme: light dark;
-  color: rgba(22, 7, 231, 0.87);
+  color: rgba(20, 69, 231, 0.87);
   background-color: #18dde8;
 
   /* font-synthesis: none;
@@ -13,28 +13,41 @@
   -moz-osx-font-smoothing: grayscale;
 } */
 
+/* the navbar coloring */
 a {
   font-weight: 500;
-  color: #a911e0;
+  color: #ed16b7;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: green;
+  text-decoration: green wavy underline;
 }
 
-/* body {
+body {
   margin: 0;
-  display: flex;
+  display: float;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-} */
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 1.5em;
+  line-height: 1.1;
+  background-color: greenyellow;
+}
+p {
+  font-size: 1em;
+  line-height: 1.1;
+ 
+  flex-direction: row;
+  background-color: grey;
+}
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;

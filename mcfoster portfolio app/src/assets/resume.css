@@ -1,38 +1,41 @@
 
+:root {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+/* background page for homea and font  */
+  color-scheme: light dark;
+  color: rgba(20, 69, 231, 0.87);
+  background-color: #18dde8;
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  /* nav bar */
-  .navbar ul {
-    /* display: block; */
-    background-color:rgba(193, 17, 232, 0.404);
-    padding: 2px;
-    margin: 0px;
-    text-align: center;
-    box-shadow: 0px 0px 15px rgb(8, 243, 243) (10, 233, 233);
-    overflow: hidden;
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* the navbar coloring */
+a {
+  font-weight: 500;
+  color: #ed16b7;
+  text-decoration: inherit;
+}
+a:hover {
+  color: green;
+  text-decoration: green wavy underline;
 }
 
-.navbar li{
-    float:left;
+body {
+  margin: 0;
+  display: float;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-.btn:hover{
-    background-color: rgb(226, 28, 199);
-}
-
-.btn {
-    color: rgb(23, 226, 233);
-    background-color:rgb(26, 222, 233);
-    padding: 15px;
-
-    border-radius: 12px;
-    text-align: center;
-    text-shadow: 0px 0px 20px rgb(122, 5, 113);
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
 }
 /* flip card */
 /* resume page */
@@ -72,7 +75,7 @@
   .back-face {
     backface-visibility: hidden;
     background: rgb(16, 73, 218);
-    color:#9bd224;
+    color:#eee714;
     position: absolute;
     height: 100%;
     width: 100%;
