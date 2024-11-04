@@ -37,21 +37,14 @@
     line-height: 1.1;
   }
 
+
 .container {
-    margin-left: 300px;
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    column-gap: 2em;
-    row-gap: 5em;
-}
-.container {
-  margin-left: 300px;
-  display: inline-flex;
+  margin-left: 200px;
+  display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
-  column-gap: 2em;
-  row-gap: 5em;
+  column-gap: 3em;
+  row-gap: 3em;
 }
 button {
     color: rgb(20, 20, 220);
@@ -62,25 +55,12 @@ form {
     min-height: 50vh;
 }
 
-/* sectiom  */
-/* .text {
-    color: #330fe7;
-    text-shadow:
-        0 0 7px #310ee0,
-        0 0 10px #190ee3,
-        0 0 21px #1515ee,
-        0 0 42px rgb(226, 237, 15),
-        0 0 82px  rgb(226, 237, 15),
-        0 0 92px rgb(215, 236, 20),
-        0 0 102px rgb(226, 237, 15)
-        0 0 151px rgb(220, 234, 23);
-} */
+
 
 /* .localStorage{
     padding: 350px;
 } */
 
-/* li{  */
 
 
 
@@ -103,10 +83,5 @@ form {
     box-shadow: 0px 0px 40px rgb(240, 8, 217);
   }
 
-
-
-  @media (min-width: 768px) and (max-width: 991.98px) { 
-   .header img {
-    width:100%;
-   }
+}
   

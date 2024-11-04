@@ -7,11 +7,11 @@
   color: rgba(20, 69, 231, 0.87);
   background-color: #18dde8;
 
-  /* font-synthesis: none;
+  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-} */
+}
 
 /* the navbar coloring */
 a {
@@ -38,15 +38,21 @@ h1 {
 }
 h2 {
   font-size: 1.5em;
+  text-align: center;
   line-height: 1.1;
   background-color: greenyellow;
+  width: 200px;
+  padding: 20px;
+  border: 10px solid palevioletred;
 }
 p {
   font-size: 1em;
   line-height: 1.1;
- 
+  width: 300px;
+  padding:50px;
+  border: 20px solid #0088dd;
   flex-direction: row;
-  background-color: grey;
+  background-color: light grey;
 }
 /* button {
   border-radius: 8px;
