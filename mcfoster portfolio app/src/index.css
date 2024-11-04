@@ -53,14 +53,20 @@ p {
   border: 20px solid #0088dd;
   flex-direction: row;
   background-color: light grey;
-  img.align-left {
-    float: left;
-    margin-right: 10px;
-    img.medium{
-      width: 150px;
-      height: 150px;
-    }
-  }
+  
+}
+img.align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+img.align-right {
+  float: right;
+  margin-left: 10px;
+}
+img.medium{
+  width: 150px;
+  height: 150px;
 }
 /* button {
   border-radius: 8px;
