@@ -1,10 +1,10 @@
 :root {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Comic sans-serif;
   line-height: 1.5;
   font-weight: 400;
 /* background page for homea and font  */
   color-scheme: light dark;
-  color: rgba(20, 69, 231, 0.87);
+  color: rgba(6, 40, 153, 0.87);
   background-color: #18dde8;
 
   font-synthesis: none;
@@ -48,11 +48,12 @@ h2 {
 p {
   font-size: 1em;
   line-height: 1.1;
-  width: 300px;
-  padding:50px;
-  border: 20px solid #0088dd;
+  background-color: light rgb(108, 106, 106);
+  width: 600px;
+  padding:80px;
+  border: 20px solid #f09809;
   flex-direction: row;
-  background-color: light grey;
+ 
   
 }
 img.align-left {
@@ -62,11 +63,14 @@ img.align-left {
 
 img.align-right {
   float: right;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 img.medium{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
+}
+.footer{
+font-style: italic;
 }
 /* button {
   border-radius: 8px;

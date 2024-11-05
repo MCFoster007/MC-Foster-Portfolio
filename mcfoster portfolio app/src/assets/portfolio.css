@@ -1,5 +1,5 @@
 :root {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Comic sans-serif;
     line-height: 1.5;
     font-weight: 400;
   /* background page for homea and font  */
@@ -77,10 +77,10 @@ form {
     transition: 0.3s;
   }
 
-  /* portfolio sesctions */
+  /* portfolio sections */
   div img{
     border-radius: 15px;
-    box-shadow: 0px 0px 40px rgb(240, 8, 217);
+    box-shadow: 0px 0px 40px rgb(64, 242, 10);
   }
 
 }
