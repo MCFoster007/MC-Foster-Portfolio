@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./src/assets/contactform.css" />
+    <script defer src="./src/js/form.js" type="text/javascript">
+      function clearForm(){
+        document.getElementById("myForm").clear();
+      }
+    </script>
     <title>Contact Me</title>
 </head>
 <body>
@@ -21,7 +26,7 @@
           <li><a href="resume.html">Resume</a></li>
         </ul>
        </p> 
-       <form action="https://docs.google.com/document/d/1Ok6otXpcc75wBFpL4ws0RwonrGyjA5pPpCgFPnj0V-E/edit?tab=t.0" method="get">
+       <form action="#" id="form" method="post">
         <fieldset>
           <legend>
             Fill out:
